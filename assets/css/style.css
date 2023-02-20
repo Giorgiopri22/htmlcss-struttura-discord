@@ -1,0 +1,152 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+                    /**PARTE HEADER**/
+
+header,footer{
+    background-color: blue;
+    height: 300px;
+    width: 100%;
+}
+
+nav{
+    display: flex;
+    width: 70%;
+    background-color: red;
+    margin: auto;
+    justify-content: space-between;
+}
+
+.logo{
+    width: 100px;
+    background-color: gold ;
+}
+
+.navigatore{
+    display: flex;
+    justify-content: space-around;
+    width: 50%;
+}
+
+
+.container{
+    width: 40%;
+    margin: auto;
+    background-color: aqua;
+    height: 200px;
+    margin-top: 30px;
+    
+}
+            /**PARTE MAIN**/
+.box{
+    background-color: blueviolet;
+    height: 200px;
+    margin: auto;
+    display: flex;
+    border: 1px solid black;
+    justify-content: center;
+    align-items: center;
+}
+
+.box-1{
+    width: 15%;
+    background-color: black;
+    height: 60%;
+}
+
+.box-2{
+    width: 20%;
+    background-color: aliceblue;
+    height:60%;
+}
+
+.box-3{
+    width: 30%;
+    background-color: black;
+    height: 60%;
+}
+
+.box-4{
+    width: 40%;
+    background-color: aliceblue;
+    height: 60%;
+}
+
+.box-5{
+    width: 50%;
+    background-color: black;
+    height: 60%;
+}
+
+.box-6{
+    width: 20%;
+    background-color: aliceblue;
+    height: 60%;
+}
+
+.column{
+    padding: 2%;
+    flex-direction: column;
+}
+
+.box-7{
+    width: 25%;
+    background-color: black;
+    height: 60%;
+}
+
+.box-8{
+    width: 60%;
+    background-color: aliceblue;
+    height: 80%;
+}
+
+.box-9{
+    width: 30%;
+    background-color: black;
+    height: 60%;
+}
+                  /**PARTE FOOTER**/
+footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.f-container{
+    display: flex;
+    width: 70%;
+    height: 250px;
+    background-color: crimson;
+    justify-content: center;
+}
+
+.logo-2{
+    width:30%;
+    height: 200px;
+    background-color: chartreuse;
+    border: 1px solid black;
+}
+
+.colonna{
+    width: 20%;
+    height: 200px;
+    background-color: chartreuse;
+    border: 1px solid black;
+}
+
+hr{
+    border: 2px solid grey;
+    width: 70%;
+}
+
+.sub-container{
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
+    margin-top: 10px;
+}
